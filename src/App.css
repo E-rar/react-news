@@ -1,0 +1,33 @@
+.grid{
+  display:grid;
+  grid-template-columns: repeat(3,1fr);
+  gap:1%;
+}
+figure{
+  width:25vw;
+  border:solid 1px gray;
+  padding:5%;
+  border-radius:10px;
+  
+}
+figure:hover{
+  box-shadow:0 0 1em black;
+  transition: .5s;
+}
+figure img{
+  width:100%;
+}
+.center{
+  text-align:center;
+}
+.center a {
+  text-decoration:none;
+  background-color: black;
+  color:white;
+  padding:2.5% 3%;
+  border-radius:10px;
+  cursor:pointer;
+}
+a:hover {
+  background-color:gray;
+}
